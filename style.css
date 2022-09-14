@@ -32,11 +32,38 @@ body {
   display: flex;
 }
 
+.input-avalia {
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 255, 179);
+}
+
 #evaluation-form {
   width: 675px;
   flex-direction: column;
+  border: 1px solid black;
 }
 
 #trybewarts-forms-logo {
     height: 500px;
+}
+
+#house {
+  border: 1px solid rgb(233, 1, 1);
+}
+
+.day-forms {
+  flex-direction: row;
+}
+
+.textarea-container {
+  flex-direction: column;
+}
+
+.textarea-box {
+  width: 100%;
+  resize: none;
+}
+
+.checkbox {
+  flex-direction: row;
 }
