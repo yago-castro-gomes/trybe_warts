@@ -20,9 +20,23 @@ body {
 }
 
 #trybewarts-header-title {
-    border: 2px solid rgb(52, 255, 12);
+  border: 2px solid rgb(52, 255, 12);
+  color: white;
 }
 
 .trybewarts-login {
-    border: 2px solid rgb(97, 40, 255);
+  border: 2px solid rgb(97, 40, 255);
+}
+
+.flex-container {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
 }
