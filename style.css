@@ -122,6 +122,9 @@ main {
 .content-to-learn {
   border: 1px solid blue;
   padding: 10px;
+  flex-wrap: nowrap;
+  flex: column;
+  width: 380px;
 }
 
 .textarea-container {
