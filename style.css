@@ -19,7 +19,7 @@ body {
   border: 2px solid rgb(179, 57, 57);
   display: flex;
   height: 95px;
-  padding: 0px 25px;
+  padding: 0 25px;
 }
 
 #trybewarts-header-title {
@@ -81,10 +81,12 @@ main {
   padding: 8px;
   width: 316px;
   border-radius: 4px;
+  border: 1px solid white;
+  margin: 5px 1px;
 }
 
 #house {
-  border: 1px solid rgb(233, 1, 1);
+  border: 1px solid white;
   width: 295px;
   color: black;
   background-color: white;
@@ -100,6 +102,28 @@ main {
   flex-direction: row;
 }
 
+.content-center {
+  border: 1.5px solid green;
+  display: flex;
+}
+
+.your-family {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  padding: 5px;
+  width: 40%;
+}
+
+.your-family-child {
+  width: 100%;
+}
+
+.content-to-learn {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
 .textarea-container {
   flex-direction: column;
 }
@@ -107,8 +131,26 @@ main {
 .textarea-box {
   width: 100%;
   resize: none;
+  border: 1px solid rgb(78, 44, 131);
+  border-radius: 4px;
 }
 
 .checkbox {
   flex-direction: row;
+}
+
+#submit-btn {
+  background-color: rgb(78, 44, 131);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(73, 69, 69);
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
 }
