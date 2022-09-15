@@ -1,8 +1,18 @@
 const email = document.getElementById('email');
 const password = document.getElementById('password');
-const submitForm = document.getElementById('entrar');
+const submitLogin = document.getElementById('entrar');
+const submitForm = document.getElementById('submit-btn');
+const checkBox = document.getElementById('agreement');
 
-function verifica() {
+submitForm.disabled = true;
+
+function check() {
+  if (checkBox.checked) {
+    submitForm.disabled = false;
+  }
+}
+
+function verify() {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
     alert('Olá, Tryber!');
   } else {
@@ -10,4 +20,5 @@ function verifica() {
   }
 }
 
-submitForm.addEventListener('click', verifica);
+submitLogin.addEventListener('click', verify);
+checkBox.addEventListener('click', check);
