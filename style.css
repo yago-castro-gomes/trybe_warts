@@ -16,20 +16,17 @@ body {
 }
 
 .trybewarts-header-logo {
-  border: 2px solid rgb(179, 57, 57);
   display: flex;
   height: 95px;
   padding: 0 25px;
 }
 
 #trybewarts-header-title {
-  border: 2px solid rgb(52, 255, 12);
   color: white;
   font-size: xxx-large;
 }
 
 .trybewarts-login {
-  border: 2px solid rgb(97, 40, 255);
   display: flex;
 }
 
@@ -56,25 +53,22 @@ body {
 }
 
 main {
-  border: 1px solid rgb(0, 255, 179);
   justify-content: space-around;
 }
 
 .input-avalia {
   flex-wrap: wrap;
-  border: 1px solid rgb(0, 255, 179);
+  margin: 5px 0 15px;
 }
 
 #evaluation-form {
   width: 675px;
   flex-direction: column;
-  border: 1px solid black;
   padding: 20px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
-  border: rgb(0, 255, 179) solid 1px;
 }
 
 .flex-container .input-avalia input {
@@ -88,6 +82,8 @@ main {
 #house {
   border: 1px solid white;
   width: 295px;
+  height: 34px;
+  margin: 5px 0 0;
   color: black;
   background-color: white;
   border-radius: 4px;
@@ -98,37 +94,64 @@ main {
   padding: 3px;
 }
 
-.day-forms {
-  flex-direction: row;
-}
-
 .content-center {
-  border: 1.5px solid green;
   display: flex;
 }
 
 .your-family {
   display: flex;
-  border: 1px solid red;
   flex-direction: column;
-  padding: 5px;
   width: 40%;
+  margin: 5px 0;
 }
 
-.your-family-child {
-  width: 100%;
+.teste-1 {
+  margin: 14px 0;
+}
+
+.content-to-learn-int {
+  width: 210px;
+}
+
+.content-to-learn-checkbox-1 {
+  margin: 8px 0;
+  display: inline-flex;
+}
+
+.content-to-learn-checkbox-2 {
+  margin: 5px 0;
+  display: inline-flex;
+}
+
+.your-family-input {
+  display: flex;
 }
 
 .content-to-learn {
-  border: 1px solid blue;
-  padding: 10px;
+  margin: 5px 0;
+  width: 380px;
+  line-height: 1.5;
+}
+
+.content-to-learn-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+  line-height: 1.9;
+}
+
+.day-forms {
+  margin: 10px 0;
+  flex-direction: row;
 }
 
 .textarea-container {
   flex-direction: column;
+  margin: 10px 0;
 }
 
 .textarea-box {
+  margin: 5px 0;
   width: 100%;
   resize: none;
   border: 1px solid rgb(78, 44, 131);
@@ -145,6 +168,7 @@ main {
   border: none;
   padding: 8px;
   border-radius: 4px;
+  margin: 10px 0;
 }
 
 footer {
