@@ -7,9 +7,9 @@ const checkBox = document.getElementById('agreement');
 submitForm.disabled = true;
 
 function check() {
-  if (checkBox.checked) {
-    submitForm.disabled = false;
-  }
+  const box = checkBox.checked ? submitForm.disabled = false : submitForm.disabled = true;
+
+  return box;
 }
 
 function verify() {
